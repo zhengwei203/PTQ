@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# logs
+*.log
+log_dir/
+logs/
+wandb/
+runs/
+
+# checkpoints / outputs
+*.pth
+*.pt
+*.ckpt
+*.tar
+output_dir/
+output*/
+checkpoint*/
+rank_tgsrs*/
+rank_conv*/
+rank_ptq*/
+
+# datasets
+data/
+datasets/
+ImageNet/
+imagenet/
+
+# cache
+.cache/
+tmp/
+temp/
+.DS_Store
+
+# editor
+.vscode/
+.idea/
